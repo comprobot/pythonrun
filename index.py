@@ -6,8 +6,8 @@ import time
 import sys
 
 #Id = parse.quote(input("Youtube video id: ")) # Like: 9iHM6X6uUH8
-Id = sys.argv[1]
-#Id ='uVjRe8QXFHY'
+#Id = sys.argv[1]
+Id ='uVjRe8QXFHY'
 
 res = requests.post("https://www.y2mate.com/mates/en115/analyze/ajax",
                   headers={
